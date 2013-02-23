@@ -1,0 +1,6 @@
+[submodule "libraries/lithium"]
+	path = libraries/lithium
+	url = git://github.com/UnionOfRAD/lithium.git
+[submodule "app/libraries/li3_paginate"]
+	path = app/libraries/li3_paginate
+	url = https://github.com/primetheus/li3_paginate

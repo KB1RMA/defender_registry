@@ -1,0 +1,6 @@
+.DS_Store
+app/libraries/*
+app/resources/tmp/*
+.*.sw[op]
+
+app/webroot/vehicle-images/*
