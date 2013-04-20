@@ -1,12 +1,27 @@
-jQuery(document).ready(function() {
+(function (window, document) {
+	'use strict'
 
-	// Infinite Scroll
-	jQuery.ias({
-		container : '.vehicleList',
-		item: '.vehicle',
-		pagination: '#content .paginator',
-		next: '.next a',
-		loader: '<img src="images/loader.gif"/>'
+	var
+		$ = window.jQuery,
+		$window = $(window),
+		$doc = $(document);
+
+	function init() {
+		$doc.foundation();
+
+		// Infinite Scroll
+		$.ias({
+			container : '.vehicleList',
+			item: '.vehicle',
+			pagination: '#content .paginator',
+			next: '.next a',
+			loader: '<img src="images/loader.gif"/>'
+		});
+
+	}
+
+	$(function () {
+		init();
 	});
 
-} );
+})(this, document);

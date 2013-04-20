@@ -1,4 +1,4 @@
-﻿<ul class="vehicleList clearfix">
+<ul class="vehicleList large-block-grid-3">
 	<?php foreach ( $vehicles as $vehicle ) : ?>
 		<li class="vehicle">
 			<a href="<?= $this->url(array('Vehicles::view', 'vin' => $vehicle->vin)) ?>" style="background-image: url(<?= $this->path('/img/no-vehicle-image.png') ?>)">

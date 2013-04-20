@@ -1,6 +1,7 @@
 .DS_Store
 app/libraries/*
 app/resources/tmp/*
+app/webroot/.sass-cache
 .*.sw[op]
 
 app/webroot/vehicle-images/*
